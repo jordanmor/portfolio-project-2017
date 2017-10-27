@@ -1,2 +1,3 @@
-# jordanmor.com
+# Jordan Mor
 Personal Portfolio Site
+--- In progress of being built ---
