@@ -55,13 +55,15 @@ $('.photo').on('click', function(event) {
 // function myCallback() {
 
 	var aText = [
-		"Hi! I'm a web developer"
+		"Hi! I'm a web developer",
+		"Welcome to my website!",
+		"Please check out some of the projects I've worked on"
 		];
 
-	var iSpeed = 100; // time delay of print out
+	var iSpeed = 150; // time delay of print out
 	var iIndex = 0; // start printing array at this position
 	var iArrLength = aText[0].length; // the length of the text array
-	var iScrollAt = 20; // start scrolling up at this many lines
+	var iScrollAt = 0; // start scrolling up at this many lines
 	 
 	var iTextPos = 0; // initialise text position
 	var sContents = ''; // initialise contents variable
@@ -94,23 +96,23 @@ $('.photo').on('click', function(event) {
 
 // myCallback();
 
-function typeWriter(text, n) {
-  if (n < (text.length)) {
-    $('.test').html(text.substring(0, n+1));
-    n++;
-    setTimeout(function() {
-      typeWriter(text, n)
-    }, 100);
-  }
-}
+// function typeWriter(text, n) {
+//   if (n < (text.length)) {
+//     $('.test').html(text.substring(0, n+1));
+//     n++;
+//     setTimeout(function() {
+//       typeWriter(text, n)
+//     }, 100);
+//   }
+// }
 
-$('.start').click(function(e) {
-  e.stopPropagation();
+// $('.start').click(function(e) {
+//   e.stopPropagation();
   
-  var text = $('.test').data('text');
+//   var text = $('.test').data('text');
   
-  typeWriter(text, 0);
-});
+//   typeWriter(text, 0);
+// });
 
 
 
