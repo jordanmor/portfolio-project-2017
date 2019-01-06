@@ -1,4 +1,3 @@
-# Jordan Mor
-Personal Portfolio Site
+# Portfolio Project 2017
 
---- In progress of being built ---
+Mock personal portfolio site
